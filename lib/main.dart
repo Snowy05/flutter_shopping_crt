@@ -15,6 +15,7 @@ class MyApp extends StatelessWidget {
     return ChangeNotifierProvider(
       create: (context)=>FavItemNotifier(),
       child: MaterialApp(
+
         home: ShoppingListScreen(),
       ),
     );
